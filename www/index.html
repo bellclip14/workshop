@@ -6,10 +6,20 @@
 </head>
 <body>
 
-<p><button class="help-btn">Help</button></p>
-<div class='header'><h1>Directory</h1></div>
-<div class='search-view'>
-    <ul class='list employee-list'></ul>
+<div id="landmark-1" data-landmark-id="1">
+	<form>
+		<label for="email">
+			<b>Email</b>
+			<input type="email" id="email" name="email">
+		</label>
+
+		<label for="comment">
+			<b>Comment</b>
+			<textarea id="comment" name="comment" cols="30" rows="10"></textarea>
+		</label>
+		
+		<input type="submit" value="Save">
+	</form>
 </div>
 
 <script src="lib/jquery.js"></script>
