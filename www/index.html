@@ -25,20 +25,13 @@
 </head>
 <body onload="onBodyLoad()">
 
-<div id="landmark-1" data-landmark-id="1">
-	<form>
-		<label for="email">
-			<b>Email</b>
-			<input type="email" id="email" name="email">
-		</label>
-
-		<label for="comment">
-			<b>Comment</b>
-			<textarea id="comment" name="comment" cols="30" rows="10"></textarea>
-		</label>
-		
-		<input type="submit" value="Save">
-	</form>
+<div id="landmark-1">
+	<form method="post" id="infoForm">
+    <input type="text" name="first_name" id="first_name" value="" placeholder="First Name"  />
+    <input type="text" name="last_name" id="last_name" value="" placeholder="Last Name"  />   
+    <input type="text" name="email" id="email" value="" placeholder="Email"  />
+    <button type="submit">Submit</button> 
+</form>
 </div>
 
 </body>
