@@ -8,7 +8,7 @@ $(document).bind('deviceready', function(){
                 type: 'POST',
                 data: postData+'&lid='+landmarkID,
                 //change the url for your project
-                url: 'http://rcvapesters.com/survey/record.php',
+                url: 'http://rcvapesters.com/record.php',
                 success: function(data){
                     console.log(data);
                     alert('Your comment was successfully added');
